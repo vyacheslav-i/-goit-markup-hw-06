@@ -99,21 +99,26 @@
                 </div>
                 <div class="form-field comment-field">
                   <label for="comment" class="form-label">Коментар</label>
-                  <textarea name="comment" id="comment" rows="10" maxlength="150"
-                  placeholder="Введіть текст" class="form-textarea"></textarea>
+                  <textarea
+                    name="comment"
+                    id="comment"
+                    rows="10"
+                    maxlength="150"
+                    placeholder="Введіть текст"
+                    class="form-textarea"
+                  ></textarea>
                 </div>
                 <label class="agreement">
-                <input class="checkbox" type="checkbox" name="agreement" value="agree">
-                <svg class="icon-check" width="16" height="15">
-                  <use class="use" href="./images/icons.svg#icon-check"></use>
-                </svg>
-                <span>
-                  Погоджуюся з розсилкою та приймаю
-                  <a class="agree-link" href="#">
-                    Умови договору </a>
-                </span>
-              </label>
-              <button class="send-btn" type="submit">Відправити</button>
+                  <input class="checkbox" type="checkbox" name="agreement" value="agree" />
+                  <svg class="icon-check" width="16" height="15">
+                    <use class="use" href="./images/icons.svg#icon-check"></use>
+                  </svg>
+                  <span>
+                    Погоджуюся з розсилкою та приймаю
+                    <a class="agree-link" href="#"> Умови договору </a>
+                  </span>
+                </label>
+                <button class="send-btn" type="submit">Відправити</button>
               </form>
             </div>
           </div>
@@ -577,16 +582,26 @@
           </ul>
         </div>
         <form class="subscribe-form js-speaker-form">
-        <div class="subscribe-form-field">
-          <label for="subscribe-email" class="subscribe-form-label">Підпишіться на розсилку</label>
-          <input type="email" class="subscribe-form-input" name="subscribe-email" id="subscribe-email"
-            placeholder="E-mail" minlength="4">
-        </div>
-        <button class="subscribe-btn" type="submit">Підписатися
-          <svg class="send-icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-send"></use>
-          </svg></button>
-      </form>
+          <div class="subscribe-form-field">
+            <label for="subscribe-email" class="subscribe-form-label"
+              >Підпишіться на розсилку</label
+            >
+            <input
+              type="email"
+              class="subscribe-form-input"
+              name="subscribe-email"
+              id="subscribe-email"
+              placeholder="E-mail"
+              minlength="4"
+            />
+          </div>
+          <button class="subscribe-btn" type="submit">
+            Підписатися
+            <svg class="send-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
     <script src="./js/modal.js"></script>
