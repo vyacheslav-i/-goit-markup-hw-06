@@ -817,7 +817,7 @@ color: var(--primary-text-color-theme-light);
     display: flex;
     align-items: flex-end;
     gap: 12px;
-    margin-left: 93px;
+    margin-left: auto;
 }
 
 .subscribe-form-input {
